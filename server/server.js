@@ -8,7 +8,7 @@ var logger          = require('morgan'),
     errorhandler    = require('errorhandler'),
     dotenv          = require('dotenv'),
     bodyParser      = require('body-parser'),
-    protectedRoutes = require('./protected-routes')(wss, users);
+    protectedRoutes = require('./api-protected')(wss, users);
 
 var app = express();
 
@@ -33,9 +33,9 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 app.use(protectedRoutes);
-app.use(require('./user-routes'));
+app.use(require('./api-authentication'));
 
-var port = process.env.PORT || 8001;
+var port = process.env.PORT || 8002;
 
 // REGISTER OUR ROUTES -------------------------------
 app.use('/api', protectedRoutes);

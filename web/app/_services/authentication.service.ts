@@ -8,7 +8,7 @@ import {User} from "../_models/user";
 export class AuthenticationService {
     baseUrl : String;
     constructor(private http: Http) {
-        this.baseUrl = "http://localhost:8001";
+        this.baseUrl = "http://localhost:8002";
     }
 
     login(username: string, password: string) {
