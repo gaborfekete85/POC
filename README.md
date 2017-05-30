@@ -1,6 +1,6 @@
-# For details check the subfolders
-The server is running in nodejs
-Client is an angular based web app - bootstrap.
+# OAuthenticaton POC
+  * The server is running in nodejs
+  * Client is an angular based web app - bootstrap.
 
 ## Requirements
 
