@@ -12,4 +12,10 @@ Using Bootstrap, Angular 2
 - Start the server: `npm start`
 
 ## Testing
-- Open localhost:3000
+- Open http://localhost:3000
+
+### Test Users
+| User          | Password      |
+| ------------- |:-------------:|
+| epam          | test          |
+| test          | test          |
