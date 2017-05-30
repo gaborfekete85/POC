@@ -13,16 +13,15 @@ Using the Express 4.0 Router
 
 ## Testing the API
 Test your API using [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop)
-- Get Access token
+- **Get Access token**
   - POST: http://localhost:8002/user/auth
-    - **Request Body: **
-    ___
+    - **Request Body:**
     {
         "username" : "epam",
         "password" : "test"
     }
-
-- Invoke an Authorized endpoint
+___
+- **Invoke an Authorized endpoint**
   - GET: http://localhost:8002/user/auth
     - Header
       - **Key:** Authorization
