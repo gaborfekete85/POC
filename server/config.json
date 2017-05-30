@@ -1,5 +1,5 @@
 {
-  "secret": "epam-wild-security-secret!",
-  "audience": "jwt-auth",
-  "issuer": "http://epam.com"
+  "secret": "security-secret!",
+  "audience": "nodejs-jwt-auth",
+  "issuer": "http://*****.com"
 }
