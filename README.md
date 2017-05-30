@@ -11,7 +11,7 @@ Client is an angular based web app - bootstrap.
   ```
 
 ## Install and Run Server
-- For details check the Readme under the *server* folder
+- For details check the Readme under the **server** folder
 
 ## Install and Run Client
-- For details check the Readme under the *web* folder
+- For details check the Readme under the **web** folder
